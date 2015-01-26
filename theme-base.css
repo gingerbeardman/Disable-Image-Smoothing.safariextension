@@ -2,7 +2,3 @@ body > img:only-of-type, .mw-mmv-image img {
 	image-rendering: optimizeSpeed !important;
 	border-bottom: 4px solid red !important;
 }
-
-body > img::after, .mw-mmv-image img::after {
-	content: "Zoom to see pixels";
-}
