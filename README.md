@@ -3,7 +3,7 @@ Disables image smoothing using CSS so you can see the individual pixels.
 Images that have been affected have a thick red bottom border.
 
 # Why?
-So you can zoom into a page using the `Cmd +/-` browser shortcuts and be able to see the image in all its chunky pixel glory.
+So you can zoom in using the `Cmd +/-` browser shortcuts and be able to see the image in all its chunky pixel glory.
 
 # What do modified images look like?
 ![Zoomed image with red bottom border](screen-shot.png)
