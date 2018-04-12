@@ -1,4 +1,4 @@
 body > img:only-of-type, .mw-mmv-image img {
-	image-rendering: optimizeSpeed !important;
+	image-rendering: crisp-edges !important;
 	border-bottom: 4px solid red !important;
 }

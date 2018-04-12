@@ -3,7 +3,7 @@ Disables image smoothing using CSS so you can see the individual pixels.
 Images that have been affected have a thick red bottom border.
 
 # Why?
-So you can zoom in using the `Cmd +/-` browser shortcuts and be able to see the image in all its chunky pixel glory.
+So you can zoom in using browser page zoom controls and be able to see images in all their chunky pixel glory.
 
 # What do modified images look like?
 ![Zoomed image with red bottom border](screen-shot.png)
@@ -11,7 +11,7 @@ So you can zoom in using the `Cmd +/-` browser shortcuts and be able to see the 
 # How does it work?
 ```css
 body > img:only-of-type, .mw-mmv-image img {
-	image-rendering: optimizeSpeed !important;
+	image-rendering: crisp-edges !important;
 	border-bottom: 4px solid red !important;
 }
 ```
@@ -25,5 +25,6 @@ Currently only two types of images are targeted:
 If you have any requests for other types of images to include please file a pull request or issue.
 
 # Changelog
+2018-04-12, 3.0: Switch to using `image-rendering: crisp-edges`  
 2015-01-26, 2.0: Initial Public Version  
 2015-01-24, 1.0: Initial Version
